@@ -11,3 +11,7 @@ This project will use the scikit learn machine learning library in Python for pr
 
 ## Database component
 This project will utilize a Postgres type relational database  to be administered through the pdAdmin platform. It may be set up as an open source AWS database for accessbility reasons. The database will hold multiple source and result tabular datasets for the different project components. 
+
+
+# For Segment 2
+After completing an exploritory analysis on the NOAA data set, we concluded the work needed to provide an accurate and descriptive analysis was out of our reach for the final project. Shifting gears we decided to focus on the Boston data set. Using this data set we will answer the following questions *insert questions* 
