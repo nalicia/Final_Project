@@ -77,7 +77,9 @@ This project will utilize a Postgres type relational database  to be administere
 #### One question: If you had more time, where would you like to investigate for finer tuning? Keep this in mind as the presentation is being put together since it could be a really strong talking point.
 
 # Team Communication Protocols
-We decided we would primarily use the scheduled class time for the bulk of creating our project. As well as slack anytime a team member has a question. If needed we will find time outside of class to host meetings.
+- Scheduled class time used as main collaborative work sessions
+- Slack group chat used as an update channel for our individual work
+- If needed, additional zoom meetings may be used
 
 ## Authors
 > Becca Mae Hinkle | Chris Newell | Nalicia Tilman | Will Wilson
