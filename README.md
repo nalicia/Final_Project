@@ -80,9 +80,6 @@ This project will utilize a Postgres type relational database  to be administere
 We decided we would primarily use the scheduled class time for the bulk of creating our project. As well as slack anytime a team member has a question. If needed we will find time outside of class to host meetings.
 
 ## Authors
-> Becca Mae Hinkle
-> Chris Newell 
-> Nalicia Tilman
-> Will Wilson
+> Becca Mae Hinkle | Chris Newell | Nalicia Tilman | Will Wilson
 
 > April 2022
