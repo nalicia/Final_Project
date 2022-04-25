@@ -3,7 +3,7 @@
 
 
 ## Data Source
-**Dataset:** Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. 
+Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. 
 <!-- Augmented Dataset is from -->
 
 ## Questions the team hopes to answer with data
