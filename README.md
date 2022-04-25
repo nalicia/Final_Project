@@ -3,7 +3,7 @@
 
 
 ## Data Source
-Dataset: Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. 
+**Dataset:** Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. 
 <!-- Augmented Dataset is from -->
 
 ## Questions the team hopes to answer with data
@@ -20,7 +20,7 @@ With one week of work down, we decided to pivot to a dataset that has been succe
 
 Applied the Pearson Standard Correlation Coefficient method and mapped the results onto a heatmap. The heatmap provides a visual method to see the connections between the features. 
 
-![Standard Correlation Heatmap](Resources/EDA_Heatmap.png) 
+![Standard Correlation Heatmap]<img src="Resources/EDA_Heatmap.png" width="200" height="200") 
 
 - Features MEDV, RM, INDUS, NOX, TAX, AGE, RAD, LSTAT, DIS, TRACT, CRIM are significant. The non-significant features have been dropped from the dataframe. 
 - Feature MEDV has been multiplicative scaled to account for market inflation (x1000)
