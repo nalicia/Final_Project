@@ -1,15 +1,15 @@
 
-# Prediecting Housing Value Within the Suburns of Boston, Massachusetts
+# Predicting Housing Value Within the Suburbs of Boston, Massachusetts
 
 
 ## Data Source
-Dataset: Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. Augemented Dataset is from >>> >>>>
+Dataset: Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. Augmented Dataset is from >>> >>>>
 
-## Questions the team hopes to anaswer with data
+## Questions the team hopes to answer with data
 What would be the median value for a home in 2022? 
 
 ## Reasoning behind selection
-Our first choice of dataset, NOAA Storm Events Dataset, upon further research, was poorly fit for a machine learning model. Using a Time-Series analysis, such as Autoregressive Intergrated Moving Average, was ultamtliy not gonig to work well since the dataset does not have consistent, time-stamped data. 
+Our first choice of dataset, NOAA Storm Events Dataset, upon further research, was poorly fit for a machine learning model. Using a Time-Series analysis, such as Autoregressive Integrated Moving Average, was ultimately not going to work well since the dataset does not have consistent, time-stamped data. 
 
 With one week of work down, we decided to pivot to a dataset that has been successfully used in the past. The Boston Housing Data was our choice because it had a clear set of features and would allow us to move onto the technical phases of the project. 
 
@@ -24,7 +24,7 @@ Applied the Pearson Standard Correlation Coefficient method and mapped the resul
 ![Standard Correlation Heatmap](Resources/EDA_Heatmap.png) 
 
 - Features MEDV, RM, INDUS, NOX, TAX, AGE, RAD, LSTAT, DIS, TRACT, CRIM are significant. The non-significant features have been dropped from the dataframe. 
-- Feature MEDV has been multiplicatively scaled to account for market inflation (x1000)
+- Feature MEDV has been multiplicative scaled to account for market inflation (x1000)
 
 
 
