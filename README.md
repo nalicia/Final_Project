@@ -25,6 +25,7 @@ Applied the Pearson Standard Correlation Coefficient method and mapped the resul
 - Features MEDV, RM, INDUS, NOX, TAX, AGE, RAD, LSTAT, DIS, TRACT, CRIM are significant. The non-significant features have been dropped from the dataframe. 
 - Feature MEDV has been multiplicative scaled to account for market inflation (x1000)
 
+<!-- What does R2 and RMSE score mean to us -->
 <!-- Add information on work done in R -->
 
 #### Technologies, languages, tools, and algorithms used in Data Exploration Phase
@@ -73,6 +74,7 @@ This project will utilize a Postgres type relational database  to be administere
 - Link to the final Dashboard (tableau public) <!-- Need to add -->
 
 - Link to presentation slides <!-- Need to add -->
+https://public.tableau.com/shared/6NX7948XF?:display_count=n&:origin=viz_share_link
 
 #### One question: If you had more time, where would you like to investigate for finer tuning? Keep this in mind as the presentation is being put together since it could be a really strong talking point.
 
