@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Predicting Housing Value Within the Suburbs of Boston, Massachusetts
 
@@ -26,6 +25,7 @@ Applied the Pearson Standard Correlation Coefficient method and mapped the resul
 - Features MEDV, RM, INDUS, NOX, TAX, AGE, RAD, LSTAT, DIS, TRACT, CRIM are significant. The non-significant features have been dropped from the dataframe. 
 - Feature MEDV has been multiplicative scaled to account for market inflation (x1000)
 
+<!-- What does R2 and RMSE score mean to us -->
 <!-- Add information on work done in R -->
 
 #### Technologies, languages, tools, and algorithms used in Data Exploration Phase
@@ -74,6 +74,7 @@ This project will utilize a Postgres type relational database  to be administere
 - Link to the final Dashboard (tableau public) <!-- Need to add -->
 
 - Link to presentation slides <!-- Need to add -->
+https://public.tableau.com/shared/6NX7948XF?:display_count=n&:origin=viz_share_link
 
 #### One question: If you had more time, where would you like to investigate for finer tuning? Keep this in mind as the presentation is being put together since it could be a really strong talking point.
 
@@ -86,22 +87,4 @@ This project will utilize a Postgres type relational database  to be administere
 > Becca Mae Hinkle | Chris Newell | Nalicia Tilman | Will Wilson
 
 > April 2022
-=======
-## Data Exploration
-For segment 1 we decided to explore the NOAA Storm Events Dataset for machine learning potential. Our goal is to create a interactive database that allows the user to select a certain state, or city and view their former weather conditions. The information the database returns to the user is a ranking based previous weather patterns on how safe that area is to live in.
 
-As a team we decided our dataset scope would be based on the quality of location data from 2006-2021. Each of us transformed a year inbetween the years 2006 and 2021 into a dataframe and performed exploratory analysis to get a better understanding with the data.
-
-## Communication protocols
-We decided we would primarily use the scheduled class time for the bulk of creating our project. As well as slack anytime a team member has a question. If needed we will find time outside of class to host meetings.
-
-## Machine learning component
-This project will use the scikit learn machine learning library in Python for predictive data analysis.
-
-## Database component
-This project will utilize a Postgres type relational database  to be administered through the pdAdmin platform. It may be set up as an open source AWS database for accessbility reasons. The database will hold multiple source and result tabular datasets for the different project components. 
-
-
-# For Segment 2
-After completing an exploritory analysis on the NOAA data set, we concluded the work needed to provide an accurate and descriptive analysis was out of our reach for the final project. Shifting gears we decided to focus on the Boston data set. Using this data set we will answer the following questions *insert questions* 
->>>>>>> main
