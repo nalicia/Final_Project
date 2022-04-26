@@ -52,7 +52,7 @@ graphs
 
 ## Description of how the model was trained (or retrained, if the team is using an existing model)
 
-## Description of confustion matrix, including final accuracy score
+## Description of confusion matrix, including final accuracy score
 
 #### Technologies, languages, tools, and algorithms used in Analysis Phase
 - Python
