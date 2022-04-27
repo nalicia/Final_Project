@@ -48,9 +48,16 @@ graphs
 
 ## Description of how data was split into training and testing sets
 
+- In order to predict the outcome we are looking fore we need tp make sure we have a statistical understanding of the data. Using linear regression, we create training and test sets. we are trying to find a pattern that best represents all the data points with minimum error. Our random_states is defined so that the splits we create are reproducible. (It is a seed value) Therefore, we train the model using the training set and then apply the model to the test set (to test the accuracy of our training model). In this way, we can evaluate the performance of our model. It estimates how one variable affects the other & allows us to predict a continuous outcome.
+- Rmse is the mean scared error the smaller the better.
+
 ## Explanation of model choice, including limitations and benefits
 
+Our group chose Linear regression as a basic model to examine if our data can be used as predicative indicator. We specifically focus on which variables have significant contributors to the predicative outcome, and their magnitude. (By cleaning the data and filtering out the features one by one) Using this specific regression we want to determine the strength of predictors, and use it for trend forecasting.
+
 ## Description of how the model was trained (or retrained, if the team is using an existing model)
+
+To create the training set we used the train_test_split() function on the dependent and independent variables. 80% of the data was used to train the model. While the other 20% was used to test it.
 
 ## Description of confusion matrix, including final accuracy score
 
