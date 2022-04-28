@@ -57,11 +57,6 @@ Our group chose Linear regression as a basic model to examine if our data can be
 
 ## Description of how the model was trained (or retrained, if the team is using an existing model)
 
-<<<<<<< HEAD
-=======
-To create the training set we used the train_test_split() function on the dependent and independent variables. 80% of the data was used to train the model. While the other 20% was used to test it.
-
->>>>>>> main
 ## Description of confusion matrix, including final accuracy score
 
 #### Technologies, languages, tools, and algorithms used in Analysis Phase
@@ -83,8 +78,12 @@ This project will utilize a Postgres type relational database  to be administere
 
 - Link to the final Dashboard (tableau public) <!-- Need to add -->
 
-- Link to presentation slides <!-- Need to add -->
+- Link to presentation 
+https://www.canva.com/design/DAE_He3hj_o/uoBonR1moy5sQQpYUDiBQg/view?utm_content=DAE_He3hj_o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+- Crime Dashboard <!-- Need to add -->
 https://public.tableau.com/shared/6NX7948XF?:display_count=n&:origin=viz_share_link
+
 
 #### One question: If you had more time, where would you like to investigate for finer tuning? Keep this in mind as the presentation is being put together since it could be a really strong talking point.
 
