@@ -31,11 +31,11 @@ Some of us are parents and from past experience a main factor for choosing where
 
 Used Ordinary Least Square Regression and Linear Regression to create model 
 
-![Crime Rate Table](Resources/Crime Rate Table.png) 
+![Crime Rate Table](Resources/Crime_Rate_Table.png) 
 
-![Regression Results](Resources/Regression Results.png) 
+![Regression Results](Resources/Regression_Results.png) 
 
-![Residual Plot](Resources/Residual Plot.png) 
+![Residual Plot](Resources/Residual_Plot.png) 
 
 
 <!-- What does R2 and RMSE score mean to us -->
