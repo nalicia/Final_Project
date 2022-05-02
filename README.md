@@ -36,7 +36,7 @@ Used Ordinary Least Square Regression and Linear Regression to create model
 
 <img src="https://github.com/nalicia/Final_Project/blob/main/Resources/Regression_Results.png" width=500> 
 
-<img src="https://github.com/nalicia/Final_Project/blob/main/Resources/Regression_Plot.png" width=500> 
+<img src="https://github.com/nalicia/Final_Project/blob/main/Resources/Residual_Plot.png" width=500> 
 
 
 <!-- What does R2 and RMSE score mean to us -->
