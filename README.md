@@ -20,6 +20,8 @@ With one week of work down, we decided to pivot to a dataset that has been succe
 
 Applied the Pearson Standard Correlation Coefficient method and mapped the results onto a heatmap. The heatmap provides a visual method to see the connections between the features. 
 
+<img src="https://github.com/nalicia/Final_Project/blob/main/Resources/EDA_Heatmap.png" width=300 align=center>
+
 ![Standard Correlation Heatmap](Resources/EDA_Heatmap.png) 
 
 - Features MEDV, RM, INDUS, NOX, TAX, AGE, RAD, LSTAT, DIS, TRACT, CRIM are significant. The non-significant features have been dropped from the dataframe. 
