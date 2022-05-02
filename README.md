@@ -25,15 +25,29 @@ Applied the Pearson Standard Correlation Coefficient method and mapped the resul
 - Features MEDV, RM, INDUS, NOX, TAX, AGE, RAD, LSTAT, DIS, TRACT, CRIM are significant. The non-significant features have been dropped from the dataframe. 
 - Feature MEDV has been multiplicative scaled to account for market inflation (x1000)
 
+## Focused Dive into Crime Rates 
+
+Some of us are parents and from past experience a main factor for choosing where to live is the crime rate. There is willingness to pay more for a house and sacrifice else where, if that means living in a safer neighborhood. With this mindset we took a closer look into the crime rate. 
+
+Used Ordinary Least Square Regression and Linear Regression to create model 
+
+![Crime Rate Table](Resources/Crime Rate Table.png) 
+
+![Regression Results](Resources/Regression Results.png) 
+
+![Residual Plot](Resources/Residual Plot.png) 
+
+
 <!-- What does R2 and RMSE score mean to us -->
 <!-- Add information on work done in R -->
 
-#### Technologies, languages, tools, and algorithms used in Data Exploration Phase
+### Technologies, languages, tools, and algorithms used in Data Exploration Phase
 - Python
 - Juypter Notebooks
 - R
 - Pearson Standard Correlation Coefficient
 - Spearman Rank Correlation
+- Ordinary Least Squares Regression 
 
 # Analysis Phase
 
