@@ -11,3 +11,19 @@ This project will use the scikit learn machine learning library in Python for pr
 
 ## Database component
 This project will utilize a Postgres type relational database  to be administered through the pdAdmin platform. It may be set up as an open source AWS database for accessbility reasons. The database will hold multiple source and result tabular datasets for the different project components. 
+
+
+### Week 3 Deliverable
+
+I fine tuned my dashboard on Tableau and did additional regression testing to better explain the dashboard I created. Our team has continuously been in contact through Slack to make sure every piece is ready to go on Wednesday. Here are some pictures of what I did this week.
+
+<img width="827" alt="Residual Plot" src="https://user-images.githubusercontent.com/94575416/166180950-2e80b1a5-0b29-4119-b365-0a02c471d425.png">
+
+<img width="819" alt="Regression Results" src="https://user-images.githubusercontent.com/94575416/166180958-310ccc25-ac00-48b0-99a1-a48fdb08d6b5.png">
+
+<img width="516" alt="Crime Rate Table" src="https://user-images.githubusercontent.com/94575416/166180971-0e3b4026-9bcf-4a66-8d6e-35d6a55f3d8e.png">
+
+
+Tableau Dashboard
+
+https://public.tableau.com/app/profile/rebecca.hinkle/viz/BostonHousingDataAnalysis_16509223699590/Dashboard1?publish=yes
