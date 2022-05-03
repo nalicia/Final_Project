@@ -64,7 +64,7 @@ Additional features were removed for reason of duplicate information and/or othe
 
 Additionally some collinearity may have been present between the 'TAX' and 'RAD' variables so excluding one of these would be best practive anyhow. 
 
-Exploratory regression analysis showed that the 'INDUS' and 'AGE' feature variables did not account for signifigant variance within the target variable. They were removed for lack of predictive ability.
+Exploratory regression analysis showed that the 'INDUS' and 'AGE' feature variables did not account for signifigant variance within the target variable. They were removed for lack of predictive contribution.
 
 Lastly, the 'B' value was not pushed into the final model. As as user facing tool, it is not a variable we wished for a user to experiment with and is not needed for robust model performance.  
 
