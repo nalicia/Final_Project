@@ -95,7 +95,7 @@ We did not see a need to set up a relational database for the final dashboard. W
 
 
 # Dashboard/Presentation Component
-
+The regression model was deployed as a named function to a local TabPy server instance from a Jupyter notebook. Using Tableau's table calculation and script calls , we were able to integrate the Python code defining the regression model by querying that endpoint. Exposing the feature variables as parameters in Tableau allowed for dynamic interoperability between user input and a response that captured the target variable prediction. It should be noted that Tableau connects to TabPy using REST Evaluate.
 - Link to the final Dashboard (tableau public) <!-- Need to add -->
 
 - Link to presentation 
