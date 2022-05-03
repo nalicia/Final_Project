@@ -89,7 +89,7 @@ Our group chose Linear regression as a basic model to examine if our data can be
 
 
 # Database Component
-This project will utilize a Postgres type relational database  to be administered through the pdAdmin platform. It may be set up as an open source AWS database for accessability reasons. The database will hold multiple source and result tabular datasets for the different project components. 
+We did not see a need to set up a relational database for the final dashboard. While we had multiple datasets that required joining we used Tableau Desktop's data 'blending' technicques to merge a spatial geojson file with the tabular information. This is something that could not have been accomplished in a PostgresSQL environment on its own as spatial geometry is not supported in that repository type. An extension to PostgresSQL (PostGIS) was explored to enable that handling but it was not revisted in this timeframe. Our data sources into the dashboard remain in the source geojson and csv file types. 
 
 <!-- Holds static data, interfaces with project (i.e. updates), 2+ tables, 1 join, 1 connection string -->
 
