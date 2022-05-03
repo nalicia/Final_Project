@@ -58,11 +58,17 @@ The data exploration phase revealed patterns and relationships amongst data vari
 
 
 ## Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-Some data variables were dropped outright 
+Feature selection included evaluating the relationships of the input variables with the target variable as well as other considerations. From the augmented data set we removed 'TOWN' AND 'TOWN#' which was descriptive data regarding the census unit and not suited for linear regression. The 'TRACT' and 'OBS' variables were removed for similar reasons - they were identifying information that, although numeric, have no linear organization to them. The problems with using 'Lat' 'Long' fields as feature variables tie into this consideration and it is common practive to exclude raw coordinate information from regression models.  
+
+Additional features were removed for reason of duplicate information and/or other biases. 'CMEDV' was duplicate information in that it applied a corrective across the board to the 'MEDV' value. They represented the same target information. 'TAX' which represents the property tax value is biased in that it is a feature that can be traced directly back to the home value itself. In other words, it is not an independent phenomeon from the target variable.   
+
+Additionally some collinearity may have been present between the 'TAX' and 'RAD' variables so excluding one of these would be best practive anyhow. 
+
+Lastly, the 'B' value was not pushed into the final model. As as user facing tool, it is not a variable we wished for a user to experiment with and is not needed for robust model performance.  
 
 ## Description of how data was split into training and testing sets
 
-- In order to predict the outcome we are looking fore we need tp make sure we have a statistical understanding of the data. Using linear regression, we create training and test sets. we are trying to find a pattern that best represents all the data points with minimum error. Our random_states is defined so that the splits we create are reproducible. (It is a seed value) Therefore, we train the model using the training set and then apply the model to the test set (to test the accuracy of our training model). In this way, we can evaluate the performance of our model. It estimates how one variable affects the other & allows us to predict a continuous outcome.
+- In order to predict the outcome we are looking for we need tp make sure we have a statistical understanding of the data. Using linear regression, we create training and test sets. we are trying to find a pattern that best represents all the data points with minimum error. Our random_states is defined so that the splits we create are reproducible. (It is a seed value) Therefore, we train the model using the training set and then apply the model to the test set (to test the accuracy of our training model). In this way, we can evaluate the performance of our model. It estimates how one variable affects the other & allows us to predict a continuous outcome.
 - Rmse is the mean scared error the smaller the better.
 
 ## Explanation of model choice, including limitations and benefits
