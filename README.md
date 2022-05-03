@@ -43,23 +43,22 @@ Used Ordinary Least Square Regression and Linear Regression to create model
 <!-- Add information on work done in R -->
 
 ### Technologies, languages, tools, and algorithms used in Data Exploration Phase
-- Python
+- Python including the Pandas and SciKit-Learn libraries
 - Juypter Notebooks
-- R
+- R and the R-Studio applocation
 - Pearson Standard Correlation Coefficient
 - Spearman Rank Correlation
 - Ordinary Least Squares Regression 
 
 # Analysis Phase
 
-Based on the results of the Data Exploration Phase, we decided to use a Linear Regression machine learning model to test and train the data set. 
-
+The data exploration phase revealed patterns and relationships amongst data variables. As our predictive question is most easily answered as a continuous response variable and that a strong model for linear regression was observed in the exploratory step we decided to formalize the multivariate linear model discovered there into a predictive machine learning function. 
 
 ## Description of preliminary data preprocessing
 
+
 ## Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-based on r score value from Linear Regression
-graphs 
+Some data variables were dropped outright 
 
 ## Description of how data was split into training and testing sets
 
