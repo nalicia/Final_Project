@@ -63,8 +63,8 @@ Lastly, the 'B' value was not pushed into the final model. As as user facing too
 
 ## Description of how data was split into training and testing sets
 
-- In order to predict the outcome we are looking for we need tp make sure we have a statistical understanding of the data. Using linear regression, we create training and test sets. we are trying to find a pattern that best represents all the data points with minimum error. Our random_states is defined so that the splits we create are reproducible. (It is a seed value) Therefore, we train the model using the training set and then apply the model to the test set (to test the accuracy of our training model). In this way, we can evaluate the performance of our model. It estimates how one variable affects the other & allows us to predict a continuous outcome.
-- Rmse is the mean scared error the smaller the better.
+- In order to predict the outcome we are looking for we need tp make sure we have a statistical understanding of the data. Using linear regression, we create training and test sets. We are trying to find a pattern that best represents all the data points with minimum error. Our random_states is defined so that the splits we create are reproducible. (It is a seed value) Therefore, we train the model using the training set and then apply the model to the test set (to test the accuracy of our training model). In this way, we can evaluate the performance of our model. It estimates how one variable affects the other & allows us to predict a continuous outcome.
+- Rmse is the mean sccore error the smaller the better.
 
 ## Explanation of model choice, including limitations and benefits
 
