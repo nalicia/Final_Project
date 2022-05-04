@@ -4,7 +4,6 @@
 
 ## Data Source
 Data collected in 1978 for homes from various suburbs in Boston, Massachusetts. There are 507 entries that include 20 features. 
-<!-- Augmented Dataset is from -->
 
 ## Questions the team hopes to answer with data
 What would be the median value for a home in 2022? 
@@ -16,7 +15,6 @@ With one week of work down, we decided to pivot to a dataset that has been succe
 
 
 # Data Exploration Phase
-<!-- NOAA Dataset and Time-Series Analysis notes to be added by Chris -->
 
 Applied the Pearson Standard Correlation Coefficient method and mapped the results onto a heatmap. The heatmap provides a visual method to see the connections between the features. 
 
@@ -39,9 +37,6 @@ Used Ordinary Least Square Regression and Linear Regression to create model
 <img src="https://github.com/nalicia/Final_Project/blob/main/Resources/Residual_Plot.png" width=500> 
 
 
-<!-- What does R2 and RMSE score mean to us -->
-<!-- Add information on work done in R -->
-
 ### Technologies, languages, tools, and algorithms used in Data Exploration Phase
 - Python including the Pandas and SciKit-Learn libraries
 - Juypter Notebooks
@@ -53,8 +48,6 @@ Used Ordinary Least Square Regression and Linear Regression to create model
 # Analysis Phase
 
 The data exploration phase revealed patterns and relationships amongst data variables. As our predictive question is most easily answered as a continuous response variable and that a strong model for linear regression was observed in the exploratory step we decided to formalize the multivariate linear model discovered there into a predictive machine learning function. 
-
-## Description of preliminary data preprocessing
 
 
 ## Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
@@ -77,9 +70,8 @@ Lastly, the 'B' value was not pushed into the final model. As as user facing too
 
 Our group chose Linear regression as a basic model to examine if our data can be used as predicative indicator. We specifically focus on which variables have significant contributors to the predicative outcome, and their magnitude. (By cleaning the data and filtering out the features one by one) Using this specific regression we want to determine the strength of predictors, and use it for trend forecasting.
 
-## Description of how the model was trained (or retrained, if the team is using an existing model)
-
-## Description of confusion matrix, including final accuracy score
+## Description of how the model was trained 
+Used an 80% split of housing data to train and tested on the remaining 20%.
 
 #### Technologies, languages, tools, and algorithms used in Analysis Phase
 - Python
@@ -93,8 +85,6 @@ Our group chose Linear regression as a basic model to examine if our data can be
 # Database Component
 We did not see a need to set up a relational database for the final dashboard. While we had multiple datasets that required joining we used Tableau Desktop's data 'blending' technicques to merge a spatial geojson file with the tabular information. This is something that could not have been accomplished in a PostgresSQL environment on its own as spatial geometry is not supported in that repository type. An extension to PostgresSQL (PostGIS) was explored to enable that handling but it was not revisted in this timeframe. Our data sources into the dashboard remain in the source geojson and csv file types. 
 
-<!-- Holds static data, interfaces with project (i.e. updates), 2+ tables, 1 join, 1 connection string -->
-
 
 # Dashboard/Presentation Component
 The regression model was deployed as a named function to a local TabPy server instance from a Jupyter notebook. Using Tableau's table calculation and script calls , we were able to integrate the Python code defining the regression model by querying that endpoint. Exposing the feature variables as parameters in Tableau allowed for dynamic interoperability between user input and a response that captured the target variable prediction. It should be noted that Tableau connects to TabPy using REST Evaluate.
@@ -107,12 +97,12 @@ https://www.canva.com/design/DAE_He3hj_o/uoBonR1moy5sQQpYUDiBQg/view?utm_content
 https://public.tableau.com/shared/6NX7948XF?:display_count=n&:origin=viz_share_link
 
 
-#### One question: If you had more time, where would you like to investigate for finer tuning? Keep this in mind as the presentation is being put together since it could be a really strong talking point.
 
 # Team Communication Protocols
 - Scheduled class time used as main collaborative work sessions
 - Slack group chat used as an update channel for our individual work
-- If needed, additional zoom meetings may be used
+- GitHub for individual technical work and group work
+- If needed, additional Zoom meetings may be used
 
 ## Authors
 > Becca Mae Hinkle | Chris Newell | Nalicia Tilman | Will Wilson
